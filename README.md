@@ -1,4 +1,4 @@
-BookVerse: A Book Review Platform 📖
+BookVerse: A Book Review Platform 📖 (Live at:-https://book-verse-gilt-ten.vercel.app/)
 
 A full-stack web application built with the MERN stack where book lovers can discover, share, and review their favorite books in a clean, modern interface.
 
