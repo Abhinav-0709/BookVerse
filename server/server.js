@@ -9,7 +9,9 @@ const app = express();
 connectDB();
 
 // --- MIDDLEWARE ---
-app.use(cors()); // Use cors
+app.use(cors({
+  origin: 'https://book-verse-gilt-ten.vercel.app'
+}));
 app.use(express.json()); // This allows us to accept JSON data in the body
 
 app.get('/', (req, res) => {
