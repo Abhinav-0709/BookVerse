@@ -3,7 +3,9 @@ import axios from 'axios';
 
 
 // Create an Axios instance with a base URL
-const API = axios.create({ baseURL: 'http://localhost:5000/api' });
+const API = axios.create({
+    baseURL: import.meta.env.VITE_API_BASE_URL
+});
 
 // IMPORTANT: This interceptor runs before every request
 // It checks if we have a token in localStorage and adds it to the headers
